@@ -38,7 +38,7 @@ static constexpr size_t A_START = DELTA_START + N - 1;
 // Cost weights
 // Error
 
-constexpr double V_REF = 60;
+constexpr double V_REF = 50;
 constexpr double W_CTE = 3000.0;
 constexpr double W_EPSI = 3000.0;
 
