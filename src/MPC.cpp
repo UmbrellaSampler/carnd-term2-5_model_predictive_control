@@ -9,9 +9,7 @@
 using CppAD::AD;
 using Eigen::VectorXd;
 
-/**
- * TODO: Set the timestep length and duration
- */
+// the timestep length and duration
 static constexpr size_t N = 10;
 static constexpr double dt = 0.1;
 

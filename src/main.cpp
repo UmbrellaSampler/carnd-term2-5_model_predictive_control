@@ -69,7 +69,6 @@ int main() {
                     // Fit polynomial
                     constexpr int ORDER = 3;
                     auto cPoly = polyfit(ptsx_veh, ptsy_veh, ORDER);
-                    polyeval()
 
                     // Calculate current errors for cte & epsi
                     // cte is the polynomial f(x=0) - y (y=0)
